@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 
 dash.register_page(__name__, path='/')
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
-
+ 
 first_card = dbc.Card(
     dbc.CardBody(
         [
